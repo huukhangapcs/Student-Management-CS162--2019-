@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Login">
+      <UniqueIdentifier>{9bcc5abd-a6df-46cd-85da-05690659930b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DesignAffect">
+      <UniqueIdentifier>{60d11c89-c9e4-40cd-8fce-9ffbea401ca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{6a3bd93c-65c8-4f5f-9ddd-6dd6e08ba50a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CHANGEPASS%28MENU%29">
+      <UniqueIdentifier>{2d192406-7286-4360-82bf-3e8666e9ef7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Student">
+      <UniqueIdentifier>{1deaa89f-8430-4906-b685-0dbc586d63be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Staff">
+      <UniqueIdentifier>{09bedd41-4cd4-45d9-bb60-5859c90eb407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Staff\Class">
+      <UniqueIdentifier>{d8cdc5fc-2975-4fac-9300-1ceef9315c0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Staff\Class\Add New Class">
+      <UniqueIdentifier>{fe80f6ed-a838-4bcf-b4c4-828fe84d3040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Staff\Class\Add New Student">
+      <UniqueIdentifier>{19c7111d-9ef7-4b1a-8b85-375e381b1e22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Staff\Class\Remove A Student">
+      <UniqueIdentifier>{9d272544-7db5-4a00-8a1c-cdde68768544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Staff\Class\Edit A Student">
+      <UniqueIdentifier>{3693628f-039b-4458-aaaa-4c49daf4f3cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Staff\Class\Change Class">
+      <UniqueIdentifier>{49714f64-71a7-44bd-8cb9-3b43b9de74a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Staff\Class\View">
+      <UniqueIdentifier>{e4b132d1-c84c-4829-a4b3-9426de016f83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Staff\Course">
+      <UniqueIdentifier>{45062b09-43dd-42e4-beef-38b30a81d8dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Staff\Course\Academic Year">
+      <UniqueIdentifier>{9b0d072a-9a40-46b9-beed-7b11cecf34ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Staff\Course\Add a New Course">
+      <UniqueIdentifier>{ee2f8f37-4b1a-4e54-89df-9baf28d797ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Staff\Course\Import Course">
+      <UniqueIdentifier>{e977b8ea-e553-446e-94ec-4d9c1186a511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Staff\Course\Edit A Course">
+      <UniqueIdentifier>{dee6d17b-af58-4db3-b523-1d4f0a983d80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Staff\Course\Display">
+      <UniqueIdentifier>{29e010e1-c9a9-4022-a437-086a7d753b6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screen">
+      <UniqueIdentifier>{8bbd11f1-52bf-44c6-a6d4-fac94d7c9356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Staff\Course\Add A Std To Course">
+      <UniqueIdentifier>{895ba25e-e131-43d4-a068-3868a0507d8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Staff\Course\AddAndDisplayLecturer">
+      <UniqueIdentifier>{7626bcef-d207-45b5-ba6c-0e69b5b47c03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Staff\Course\Remove A Std From Course">
+      <UniqueIdentifier>{e51132f0-6f11-4f90-b709-1935c2de8153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Staff\Course\RemoveACourse">
+      <UniqueIdentifier>{9489ef63-5531-4a9f-87fc-5054fbc3147a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Staff\ScoreBoard">
+      <UniqueIdentifier>{30b7de44-bdbc-4eef-a099-6a129fd28723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Staff\Attendance">
+      <UniqueIdentifier>{3c63fc76-fa98-4b67-b026-9677d35a39e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DesignAffect.cpp">
+      <Filter>Source Files\DesignAffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>Source Files\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="InputData.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputPassword.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckLogin.cpp">
+      <Filter>Source Files\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeStudentPass.cpp">
+      <Filter>Source Files\CHANGEPASS%28MENU%29</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeStaffPass.cpp">
+      <Filter>Source Files\CHANGEPASS%28MENU%29</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeLecturerPass.cpp">
+      <Filter>Source Files\CHANGEPASS%28MENU%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FindAStudent.cpp">
+      <Filter>Source Files\Student</Filter>
+    </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>Source Files\Student</Filter>
+    </ClCompile>
+    <ClCompile Include="EditAStudent.cpp">
+      <Filter>Source Files\Staff\Class\Edit A Student</Filter>
+    </ClCompile>
+    <ClCompile Include="AddNewClass.cpp">
+      <Filter>Source Files\Staff\Class\Add New Class</Filter>
+    </ClCompile>
+    <ClCompile Include="AddNewStudent.cpp">
+      <Filter>Source Files\Staff\Class\Add New Student</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveAStudent.cpp">
+      <Filter>Source Files\Staff\Class\Remove A Student</Filter>
+    </ClCompile>
+    <ClCompile Include="changeClass.cpp">
+      <Filter>Source Files\Staff\Class\Change Class</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayClass.cpp">
+      <Filter>Source Files\Staff\Class\View</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayStudent.cpp">
+      <Filter>Source Files\Staff\Class\View</Filter>
+    </ClCompile>
+    <ClCompile Include="AcademicYear.cpp">
+      <Filter>Source Files\Staff\Course\Academic Year</Filter>
+    </ClCompile>
+    <ClCompile Include="Term.cpp">
+      <Filter>Source Files\Staff\Course\Academic Year</Filter>
+    </ClCompile>
+    <ClCompile Include="Course.cpp">
+      <Filter>Source Files\Staff\Course</Filter>
+    </ClCompile>
+    <ClCompile Include="ImportCourse.cpp">
+      <Filter>Source Files\Staff\Course\Import Course</Filter>
+    </ClCompile>
+    <ClCompile Include="AddANewCourse.cpp">
+      <Filter>Source Files\Staff\Course\Add a New Course</Filter>
+    </ClCompile>
+    <ClCompile Include="EditACourse.cpp">
+      <Filter>Source Files\Staff\Course\Edit A Course</Filter>
+    </ClCompile>
+    <ClCompile Include="FindACourse.cpp">
+      <Filter>Source Files\Staff\Course</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayACourse.cpp">
+      <Filter>Source Files\Staff\Course\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginBox.cpp">
+      <Filter>Source Files\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassMenu.cpp">
+      <Filter>Source Files\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckValidDay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddAStdToCourse.cpp">
+      <Filter>Source Files\Staff\Course\Add A Std To Course</Filter>
+    </ClCompile>
+    <ClCompile Include="AddAndDisplayLecturer.cpp">
+      <Filter>Source Files\Staff\Course\AddAndDisplayLecturer</Filter>
+    </ClCompile>
+    <ClCompile Include="displayAttendanceList.cpp">
+      <Filter>Source Files\Staff\Course\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayCourseList.cpp">
+      <Filter>Source Files\Staff\Course\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveAStudentFromCourse.cpp">
+      <Filter>Source Files\Staff\Course\Remove A Std From Course</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveACourse.cpp">
+      <Filter>Source Files\Staff\Course\RemoveACourse</Filter>
+    </ClCompile>
+    <ClCompile Include="Attendance.cpp">
+      <Filter>Source Files\Staff\Course</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreBoard.cpp">
+      <Filter>Source Files\Staff\Course</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseMenu.cpp">
+      <Filter>Source Files\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="GetcurrentTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditScore.cpp">
+      <Filter>Source Files\Staff\ScoreBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewSChedule.cpp">
+      <Filter>Source Files\Student</Filter>
+    </ClCompile>
+    <ClCompile Include="EditAttendance.cpp">
+      <Filter>Source Files\Staff\Attendance</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentCheckIn.cpp">
+      <Filter>Source Files\Student</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreboardMenu.cpp">
+      <Filter>Source Files\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="AttendanceListMenu.cpp">
+      <Filter>Source Files\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="getSTDdata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DesignAffect.h">
+      <Filter>Source Files\DesignAffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>Source Files\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="Gotoxy.h">
+      <Filter>Source Files\DesignAffect</Filter>
+    </ClInclude>
+    <ClInclude Include="InputData.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputPassword.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckLogin.h">
+      <Filter>Source Files\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeStudentPass.h">
+      <Filter>Source Files\CHANGEPASS%28MENU%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeStaffPass.h">
+      <Filter>Source Files\CHANGEPASS%28MENU%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeLecturerPass.h">
+      <Filter>Source Files\CHANGEPASS%28MENU%29</Filter>
+    </ClInclude>
+    <ClInclude Include="FindAStudent.h">
+      <Filter>Source Files\Student</Filter>
+    </ClInclude>
+    <ClInclude Include="Student.h">
+      <Filter>Source Files\Student</Filter>
+    </ClInclude>
+    <ClInclude Include="EditAStudent.h">
+      <Filter>Source Files\Staff\Class\Edit A Student</Filter>
+    </ClInclude>
+    <ClInclude Include="AddNewClass.h">
+      <Filter>Source Files\Staff\Class\Add New Class</Filter>
+    </ClInclude>
+    <ClInclude Include="AddNewStudent.h">
+      <Filter>Source Files\Staff\Class\Add New Student</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveAStudent.h">
+      <Filter>Source Files\Staff\Class\Remove A Student</Filter>
+    </ClInclude>
+    <ClInclude Include="changeClass.h">
+      <Filter>Source Files\Staff\Class\Change Class</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayClass.h">
+      <Filter>Source Files\Staff\Class\View</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayStudent.h">
+      <Filter>Source Files\Staff\Class\View</Filter>
+    </ClInclude>
+    <ClInclude Include="AcademicYear.h">
+      <Filter>Source Files\Staff\Course\Academic Year</Filter>
+    </ClInclude>
+    <ClInclude Include="Term.h">
+      <Filter>Source Files\Staff\Course\Academic Year</Filter>
+    </ClInclude>
+    <ClInclude Include="Course.h">
+      <Filter>Source Files\Staff\Course</Filter>
+    </ClInclude>
+    <ClInclude Include="ImportCourse.h">
+      <Filter>Source Files\Staff\Course\Import Course</Filter>
+    </ClInclude>
+    <ClInclude Include="AddANewCourse.h">
+      <Filter>Source Files\Staff\Course\Add a New Course</Filter>
+    </ClInclude>
+    <ClInclude Include="EditACourse.h">
+      <Filter>Source Files\Staff\Course\Edit A Course</Filter>
+    </ClInclude>
+    <ClInclude Include="FindACourse.h">
+      <Filter>Source Files\Staff\Course</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayACourse.h">
+      <Filter>Source Files\Staff\Course\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Source Files\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddAStdToCourse.h">
+      <Filter>Source Files\Staff\Course\Add A Std To Course</Filter>
+    </ClInclude>
+    <ClInclude Include="AddAndDisplayLecturer.h">
+      <Filter>Source Files\Staff\Course\AddAndDisplayLecturer</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayAttendanceList.h">
+      <Filter>Source Files\Staff\Course\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayCourseList.h">
+      <Filter>Source Files\Staff\Course\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckValidDay.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveAStudentFromCourse.h">
+      <Filter>Source Files\Staff\Course\Remove A Std From Course</Filter>
+    </ClInclude>
+    <ClInclude Include="Attendance.h">
+      <Filter>Source Files\Staff\Course</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreBoard.h">
+      <Filter>Source Files\Staff\Course</Filter>
+    </ClInclude>
+    <ClInclude Include="GetcurrentTime.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditScore.h">
+      <Filter>Source Files\Staff\ScoreBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewSchedule.h">
+      <Filter>Source Files\Student</Filter>
+    </ClInclude>
+    <ClInclude Include="EditAttendance.h">
+      <Filter>Source Files\Staff\Attendance</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentCheckIn.h">
+      <Filter>Source Files\Student</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveACourse.h">
+      <Filter>Source Files\Staff\Course\RemoveACourse</Filter>
+    </ClInclude>
+    <ClInclude Include="getSTDdata.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="StaffPassWord.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="ClassList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

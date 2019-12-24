@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{18281158-9E58-4FFC-AE19-D5C6351CF1D3}</ProjectGuid>
+    <RootNamespace>Portal6</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AcademicYear.cpp" />
+    <ClCompile Include="AddAndDisplayLecturer.cpp" />
+    <ClCompile Include="AddANewCourse.cpp" />
+    <ClCompile Include="AddAStdToCourse.cpp" />
+    <ClCompile Include="AddNewClass.cpp" />
+    <ClCompile Include="Attendance.cpp" />
+    <ClCompile Include="AttendanceListMenu.cpp" />
+    <ClCompile Include="CheckValidDay.cpp" />
+    <ClCompile Include="ClassMenu.cpp" />
+    <ClCompile Include="CourseMenu.cpp" />
+    <ClCompile Include="DisplayACourse.cpp" />
+    <ClCompile Include="displayAttendanceList.cpp" />
+    <ClCompile Include="DisplayCourseList.cpp" />
+    <ClCompile Include="EditACourse.cpp" />
+    <ClCompile Include="EditAttendance.cpp" />
+    <ClCompile Include="EditScore.cpp" />
+    <ClCompile Include="FindACourse.cpp" />
+    <ClCompile Include="GetcurrentTime.cpp" />
+    <ClCompile Include="getSTDdata.cpp" />
+    <ClCompile Include="ImportCourse.cpp" />
+    <ClCompile Include="AddNewStudent.cpp" />
+    <ClCompile Include="changeClass.cpp" />
+    <ClCompile Include="ChangeLecturerPass.cpp" />
+    <ClCompile Include="ChangeStaffPass.cpp" />
+    <ClCompile Include="ChangeStudentPass.cpp" />
+    <ClCompile Include="CheckLogin.cpp" />
+    <ClCompile Include="Course.cpp" />
+    <ClCompile Include="DesignAffect.cpp" />
+    <ClCompile Include="DisplayClass.cpp" />
+    <ClCompile Include="DisplayStudent.cpp" />
+    <ClCompile Include="EditAStudent.cpp" />
+    <ClCompile Include="FindAStudent.cpp" />
+    <ClCompile Include="InputData.cpp" />
+    <ClCompile Include="InputPassword.cpp" />
+    <ClCompile Include="Login.cpp" />
+    <ClCompile Include="LoginBox.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="RemoveACourse.cpp" />
+    <ClCompile Include="RemoveAStudentFromCourse.cpp" />
+    <ClCompile Include="RemoveAStudent.cpp" />
+    <ClCompile Include="ScoreBoard.cpp" />
+    <ClCompile Include="ScoreboardMenu.cpp" />
+    <ClCompile Include="Student.cpp" />
+    <ClCompile Include="StudentCheckIn.cpp" />
+    <ClCompile Include="Term.cpp" />
+    <ClCompile Include="ViewSChedule.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AcademicYear.h" />
+    <ClInclude Include="AddAndDisplayLecturer.h" />
+    <ClInclude Include="AddANewCourse.h" />
+    <ClInclude Include="AddAStdToCourse.h" />
+    <ClInclude Include="AddNewClass.h" />
+    <ClInclude Include="Attendance.h" />
+    <ClInclude Include="CheckValidDay.h" />
+    <ClInclude Include="DisplayACourse.h" />
+    <ClInclude Include="DisplayAttendanceList.h" />
+    <ClInclude Include="DisplayCourseList.h" />
+    <ClInclude Include="EditACourse.h" />
+    <ClInclude Include="EditAttendance.h" />
+    <ClInclude Include="EditScore.h" />
+    <ClInclude Include="FindACourse.h" />
+    <ClInclude Include="GetcurrentTime.h" />
+    <ClInclude Include="getSTDdata.h" />
+    <ClInclude Include="Header.h" />
+    <ClInclude Include="ImportCourse.h" />
+    <ClInclude Include="AddNewStudent.h" />
+    <ClInclude Include="changeClass.h" />
+    <ClInclude Include="ChangeLecturerPass.h" />
+    <ClInclude Include="ChangeStaffPass.h" />
+    <ClInclude Include="ChangeStudentPass.h" />
+    <ClInclude Include="CheckLogin.h" />
+    <ClInclude Include="Course.h" />
+    <ClInclude Include="DesignAffect.h" />
+    <ClInclude Include="DisplayClass.h" />
+    <ClInclude Include="DisplayStudent.h" />
+    <ClInclude Include="EditAStudent.h" />
+    <ClInclude Include="FindAStudent.h" />
+    <ClInclude Include="Gotoxy.h" />
+    <ClInclude Include="InputData.h" />
+    <ClInclude Include="InputPassword.h" />
+    <ClInclude Include="Login.h" />
+    <ClInclude Include="RemoveACourse.h" />
+    <ClInclude Include="RemoveAStudentFromCourse.h" />
+    <ClInclude Include="RemoveAStudent.h" />
+    <ClInclude Include="ScoreBoard.h" />
+    <ClInclude Include="Screen.h" />
+    <ClInclude Include="Student.h" />
+    <ClInclude Include="StudentCheckIn.h" />
+    <ClInclude Include="Term.h" />
+    <ClInclude Include="ViewSchedule.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ClassList.txt" />
+    <Text Include="StaffPassWord.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
